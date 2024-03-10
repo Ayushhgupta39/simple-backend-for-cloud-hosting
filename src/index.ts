@@ -6,7 +6,7 @@ const app:Express = express();
 app.use(express.json());
 
 app.get("/", (req:Request, res:Response) => {
-    res.json({ message: "Hello world!" })
+    res.json({ message: "Namaste AWS!" })
 })
 
 app.get("/twitter", (req:Request, res:Response) => {
