@@ -19,6 +19,6 @@ app.get("/login", (req:Request, res:Response) => {
     res.send("<h1>Login page</h1>")
 })
 
-app.listen(PORT, () => {
-    console.log(`Server started on PORT: ${PORT}`);
+app.listen(8080, () => {
+    console.log(`Server started on PORT: ${8080}`);
 })
